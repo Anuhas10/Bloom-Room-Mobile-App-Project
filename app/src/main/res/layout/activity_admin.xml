@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_activity"
+    android:background="@drawable/adminpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Product_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Flower ID"
+            android:inputType="text"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/Product_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Flower Name"
+            android:inputType="text"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/Product_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Flower Price"
+            android:inputType="text"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/Product_Qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Flower Qty"
+            android:inputType="text"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/Product_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/Product_Add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Flowers"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/Category_move"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create new Category of Flowers"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/All_Products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Flowers"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/Search_Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Your Favourite Flowers"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/View_Orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Customer Orders"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/Search_Orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Customer Orders"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/back_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log-Out" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

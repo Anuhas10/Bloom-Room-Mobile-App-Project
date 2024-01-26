@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Update_Pro_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Table"
+            android:textAlignment="center"
+            android:textSize="70dp" />
+
+        <TextView
+            android:id="@+id/U_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User ID"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/P_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product ID"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/P_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Qty"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
